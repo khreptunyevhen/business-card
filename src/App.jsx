@@ -5,7 +5,7 @@ import { usersData } from "./common/userData";
 function App() {
   return (
     <div className="container">
-      <h1>Bussines cards:</h1>
+      <h1>Business Cards:</h1>
       <div className="wrapper">
         {usersData.map((user, index) => {
           return (
